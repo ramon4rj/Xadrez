@@ -75,14 +75,8 @@ class Xadrez:
             #matriz[i][j] = pos
 
     def imprime_tabuleiro(self):
-        print(self.matriz[0])
-        print(self.matriz[1])
-        print(self.matriz[2])
-        print(self.matriz[3])
-        print(self.matriz[4])
-        print(self.matriz[5])
-        print(self.matriz[6])
-        print(self.matriz[7])
+        for i in range(8):
+            print(self.matriz[i])
 
 x = Xadrez()
 b = x.cria_tabuleiro()
